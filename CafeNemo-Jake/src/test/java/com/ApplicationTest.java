@@ -8,7 +8,7 @@ class ApplicationTest {
 
     @Test
     void testShowMenu() {
-        String result = ""
+        String result = "";
 
     }
 }
