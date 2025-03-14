@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CafeNemo-Jake.iml" filepath="$PROJECT_DIR$/CafeNemo-Jake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CafeNemo-Jake.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CafeNemo-Jake.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CafeNemo-Jake.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CafeNemo-Jake.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CafeNemo-jake.iml" filepath="$PROJECT_DIR$/.idea/CafeNemo-jake.iml" />
+    </modules>
+  </component>
+</project>
