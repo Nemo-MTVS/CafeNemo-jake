@@ -50,6 +50,7 @@ public class Application {
             price = 6000;
         } else {
             System.out.println("Invalid selection");
+
         }
 
 
