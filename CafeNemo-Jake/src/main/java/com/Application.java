@@ -26,13 +26,13 @@ public class Application {
         //Figure out price from given input
         int price = 0;
         if (orderedMenu.equals("Americano")) {
-            price = 3000;
+            price = americano.price;
         } else if (orderedMenu.equals("Cafe Latte")) {
-            price = 4000;
+            price = caffeLatte.price;
         } else if (orderedMenu.equals("Espresso")) {
-            price = 5000;
+            price = espresso.price;
         } else if (orderedMenu.equals("Cappuccino")) {
-            price = 6000;
+            price = cappuccino.price;
         } else {
             System.out.println("Invalid selection");
             System.exit(0);
@@ -40,18 +40,19 @@ public class Application {
 
         int paidAmount = 0;
         System.out.println("Please enter payment : ");
-        Scanner scanner1 = new Scanner(System.in);
-        paidAmount = scanner1.nextInt();
+        // Scanner scanner1 = new Scanner(System.in);
+        paidAmount = scanner.nextInt();
 
         //Get Difference from painAmount - Price
         int difference =  paidAmount - price;
 
-        coffeeServing serveCoffee = new coffeeServing();
+        CoffeeServing serveCoffee = new CoffeeServing();
         serveCoffee.serveMenu(orderedMenu, difference);
-    }
+        scanner.close();
+    } 
 
     public static void showMenu(Menu menu) {
-        System.out.println(menu.menuName + " / " + menu.Price + "\n");
+        System.out.println(menu.menuName + " / " + menu.price + "\n");
     };
 }
 

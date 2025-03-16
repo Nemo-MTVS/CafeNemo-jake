@@ -2,10 +2,10 @@ package com;
 
 public class Menu {
     public String menuName;
-    public int Price;
+    public int price;
 
-    public Menu(String menuName, int Price) {
+    public Menu(String menuName, int price) {
         this.menuName = menuName;
-        this.Price = Price;
+        this.price = price;
     }
 }
