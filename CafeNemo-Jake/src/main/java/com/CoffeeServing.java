@@ -1,6 +1,6 @@
 package com;
 
-public class coffeeServing {
+public class CoffeeServing {
     public String menuName;
     public int difference;
 
